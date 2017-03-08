@@ -118,7 +118,6 @@ body {
           .header__video-wrapp{
             visibility: hidden;
             display: none;
-            height: 50vh; 
           }
         }
 
@@ -133,6 +132,10 @@ body {
             visibility: hidden;
             display: none;
           }
+          
+          .header {
+            height: 50vh;}
+
           .header__video-wrapp{
             visibility: hidden;
             display: none;
@@ -154,6 +157,9 @@ body {
             visibility: visible;
             display: block;
           }
+
+          .header {
+            height: 80vh;}
           
           .project1 {
             visibility: hidden;
