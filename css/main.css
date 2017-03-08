@@ -89,6 +89,111 @@ body {
 
 }
 
+@media only screen and (min-width: 0px) {
+          .project1 {
+            visibility: visible;
+            display: block;
+          }
+          
+          .project2 {
+            visibility: hidden;
+            display: none;
+          }
+          .header__video-wrapp{
+            visibility: hidden;
+            display: none;
+          }
+        }
+
+        @media only screen and (min-width: 320px) {
+          .project1 {
+            visibility: visible;
+            display: block;
+          }
+          
+          .project2 {
+            visibility: hidden;
+            display: none;
+          }
+          .header__video-wrapp{
+            visibility: hidden;
+            display: none;
+          }
+        }
+
+
+        @media only screen and (min-width: 480px) {
+          .project1 {
+            visibility: visible;
+            display: block;
+          }
+          
+          .project2 {
+            visibility: hidden;
+            display: none;
+          }
+          .header__video-wrapp{
+            visibility: hidden;
+            display: none;
+          }
+        }
+        @media only screen and (min-width: 500px) {
+          .project2 {
+            visibility: visible;
+            display: block;
+          }
+          
+          .project1 {
+            visibility: hidden;
+            display: none;
+          }
+        }  
+        @media only screen and (min-width: 768px) {
+          .project2 {
+            visibility: visible;
+            display: block;
+          }
+          
+          .project1 {
+            visibility: hidden;
+            display: none;
+          }
+          .header__video-wrapp{
+            visibility: visible;
+            display: block;
+          }
+        }
+        @media only screen and (min-width: 1140px) {
+          .project2 {
+            visibility: visible;
+            display: block;
+          }
+          
+          .project1 {
+            visibility: hidden;
+            display: none;
+          }
+        }
+        
+        .link {
+           width: 100%;
+           height: 100%;
+           background: #cd7f32;
+        }
+        .link a {
+           display: block;
+           text-align: center;
+           height: 30px;
+           margin-bottom: 10px;
+           padding: 15px 0;
+           text-decoration: none;
+           font-family: 'Pattaya', sans-serif;
+           font-size: 25px;
+           color: white;
+           background: #cd7f32;
+        }
+
+
 /* ==============
     MOBILE: Menu
    ============== */
