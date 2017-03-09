@@ -103,10 +103,7 @@ body {
             visibility: hidden;
             display: none;
           }
-          .topcontacts {
-            visibility: hidden;
-            display: none;
-          }
+
         }
 
         @media only screen and (min-width: 320px) {
@@ -123,10 +120,7 @@ body {
             visibility: hidden;
             display: none;
           }
-          .topcontacts {
-            visibility: hidden;
-            display: none;
-          }
+
         }
 
 
@@ -143,10 +137,7 @@ body {
           
           .header {
             height: 50vh;}
-          .topcontacts {
-            visibility: hidden;
-            display: none;
-          }
+
           .header__video-wrapp{
             visibility: hidden;
             display: none;
@@ -159,10 +150,6 @@ body {
           }
           
           .project1 {
-            visibility: hidden;
-            display: none;
-          }
-          .topcontacts {
             visibility: hidden;
             display: none;
           }
@@ -313,10 +300,8 @@ nav a:hover {
 }
 
 .topcontacts {
-    
     display: block;
     text-align: center;
-
     width: 38%;
 }
 .topcontacts span{
