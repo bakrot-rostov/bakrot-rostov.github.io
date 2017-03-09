@@ -145,8 +145,8 @@ body {
         }
         @media only screen and (min-width: 500px) {
           .project2 {
-            visibility: visible;
-            display: block;
+            visibility: hidden;
+            display: none;
           }
           
           .project1 {
