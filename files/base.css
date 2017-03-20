@@ -561,14 +561,28 @@ footer .developer a:visited {
     width: 90%;
   }
 }
-.logo {
-  width: 250px;
-  height: 90px;
+
+.logo{
+  float: left;
 }
+
+.logo1 {
+  width: 800px;
+  height:400px; 
+}
+
 .logo2 {
-  width: 125px;
-  height: 45px;
+  float: left;
+  list-style-type: none;
 }
+.logo2 a{display:block;
+  margin-bottom:10px;
+  padding:15px 15px;
+  text-align:center;
+  text-decoration:none;
+  background:#E74C3C;
+  color: #fff}
+
 .slogan {
   float: right;
   text-align: right;
@@ -576,6 +590,7 @@ footer .developer a:visited {
   font-size: 14px;
   text-transform: uppercase;
 }
+
 .slogan2 {
   text-align: left;
   width: 15em;
